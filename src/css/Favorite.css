@@ -1,0 +1,15 @@
+.drinksList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  h2 {
+    color: #fff;
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,49 @@
+.infoMain {
+  display: flex;
+}
+
+.ingredientSec {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  div {
+    padding: 0.7rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+    color: red;
+  }
+}
+
+.ingredientList {
+  list-style: none;
+  padding: 0;
+  width: 300px;
+  li {
+    padding-top: 0.5rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.addFavButton {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .infoMain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeImage {
+    width: 300px;
+    margin: 0 auto;
+  }
+}

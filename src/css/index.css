@@ -1,0 +1,16 @@
+@import url("./Navbar.css");
+@import url("./Home.css");
+@import url("./InfoPage.css");
+@import url("./Search.css");
+@import url("./Favorite.css");
+@import url("./Ingredient.css");
+
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
